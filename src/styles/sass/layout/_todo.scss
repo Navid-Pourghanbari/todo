@@ -1,0 +1,12 @@
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-height: 50vh;
+  background: $color-light;
+  text-align: center;
+  margin: 10% auto;
+  border-radius: 1rem;
+  padding: 2.5rem 4rem;
+  box-shadow: 1rem 2rem 4.5rem rgba(black, 0.6);
+}

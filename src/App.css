@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #3010ff;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: #575757;
+}
+
+.heading-main {
+  margin-bottom: 4rem;
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  color: #313131;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  gap: 0.5rem;
+}
+
+.todo-form {
+  margin-bottom: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input {
+  font: inherit;
+  color: inherit;
+  border: 2px solid #3010ff;
+  padding-left: 1rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  outline: none;
+  flex-grow: 1;
+  background: transparent;
+}
+
+.todo-input::placeholder {
+  color: #979797;
+}
+
+.todo-button {
+  padding: 1.6rem;
+  border: none;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #3010ff;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todo-input.edit {
+  border: 2px solid #149fff;
+}
+
+.todo-button.edit {
+  background-color: #149fff;
+  padding: 1.6rem 2.2rem;
+}
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #c9c9c9;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  min-height: 50vh;
+  background: #fff;
+  text-align: center;
+  margin: 10% auto;
+  border-radius: 1rem;
+  padding: 2.5rem 4rem;
+  box-shadow: 1rem 2rem 4.5rem rgba(0, 0, 0, 0.6);
+}
+
+/*# sourceMappingURL=app.css.map */

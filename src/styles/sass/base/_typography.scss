@@ -1,0 +1,21 @@
+body {
+  font-size: $font-size-default;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: $color-text;
+}
+
+.heading-main {
+  margin-bottom: 4rem;
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  color: $color-heading;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  gap: 0.5rem;
+}
